@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>연산자 - 삼항연산자</title>
+    <script>
+        // 삼항연산자 : 연산의 결과는 값(value)
+        // ? : 연산자      A  :  B
+        var a = 10 < 20 ? 10 : 20;
+        // 조건문이 True이면 A항이 값으로 전달, 
+        // False면 B항이 값으로 전달됨.
+        console.log(a);
+
+        // 조건문으로 변환해서 사용할 수 있다. 가급적 줄여써야.
+
+        var a;
+        if( 10 < 20){
+            a = 10;
+        }else {
+            a = 20;
+        }
+        console.log(a);
+
+        // 연습문제  - 삼항연산자
+        // 변수 x에 10이라는 값을 넣고, 변수 y에 20 값을 넣고
+        // x가 y보다 작으면 10, 아니면(그외 경우) 20을 출력하시오.
+        var x = 10;
+        var y = 20;
+
+        var z = x < y ? 10 : 20;
+        console.log(z);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
